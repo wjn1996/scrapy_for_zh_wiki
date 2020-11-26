@@ -1,7 +1,9 @@
-# 中文维基百科数据获取与预处理
+# 中文维基百科数据爬取与预处理
 &emsp;&emsp;**前言**：阅读本篇博文，您将学会如何**使用scrapy框架并基于层次优先队列的网页爬虫**以及**维基页面的结构与半结构数据自动抽取**，同时将可以**获得以计算机IT为主的超过9000个实体的中文结构化和半结构化文本语料**。项目已经开源于GitHub地址，欢迎Star或提出PR。
 
-&emsp;&emsp;运行爬虫，可前往counselor目录查看“启动爬虫.md”文件；爬虫后运行预处理，前往data_process目录查看“数据抽取.md”
+&emsp;&emsp;CSDN博客原文链接：[https://blog.csdn.net/qq_36426650/article/details/110203553](https://blog.csdn.net/qq_36426650/article/details/110203553)
+
+&emsp;&emsp;运行说明：运行爬虫，可前往counselor目录查看“启动爬虫.md”文件；爬虫后运行预处理，前往data_process目录查看“数据抽取.md”
 
 ---
 
