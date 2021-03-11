@@ -5,6 +5,25 @@
 
 &emsp;&emsp;运行说明：运行爬虫，可前往counselor目录查看“启动爬虫.md”文件；爬虫后运行预处理，前往data_process目录查看“数据抽取.md”
 
+&emsp;&emsp;获取的数据格式样例如下所示：
+
+```
+{
+    'entity': 'KTorrent',
+    'category': ['KDE Extragear', '使用Qt的软体'],
+    'url': 'https://zh.wikipedia.org/wiki/KTorrent',
+    'time': '1606017460.8569758',
+    'structure_know': {'开发者': 'JorisGuisson,IvanVasić', '稳定版本': '5.2.0（2020年6月6日，\u200b5个月前\u200b（2020-06-06））'},
+    'corrseponding_know': [{'KDE': [{'软体集': ['KDE 1', 'KDE 2', 'KDE SC 4', 'KDE Applications', 'KDE Plasma 5', '第四版以后', 'KDE 3', 'KDE Frameworks 5']}, {'其他': ['BitTorrent Open Source License', 'aXXo', 'Peer Media Technologies', 'MPAA', 'TorrentFreak', 'Slyck.com']}]}],
+    'smi-structure_know':
+    {
+        'abstract': [['KTorrent', '是使用', 'C++', '和', 'Qt', '写的BitTorrent客户端。被分类于KDE', 'Extragear', '中。']],
+        'paragraphs': {'功能': [['上传和下载速度上限／节流与调度', '互联网搜索与种子搜索引擎使用', 'KHTML', 'part', '支持', 'UDP', '连接。', 'DHT', '，可支援没有', 'tracker', '的种子', '协议加密', '文件优先序', 'RSS', '来源支持', '支援', 'UPnP', 'IPv6', '支持', 'SOCKS', 'v4 和 v5 支持', '新的伫列管理 GUI', 'IP地址过滤'], ['KTorrent 4的新特点：'], ['支援', 'µTP', '协议', '支援', 'Magnet链接', '增强的队列管理器', '添加', 'UDP', 'tracker scrape', '可暂时禁用网路验证和频宽调度器']]},
+        'entities': {'SOCKS', 'Tracker', 'Wikipedia:失效链接', '互联网档案馆', 'KPart', 'RSS', 'KGet', 'Magnet链接', 'KHTML', 'Micro Transport Protocol', 'Extragear', 'DHT', 'Qt', 'Tracker scrape（页面不存在）', 'UPnP', 'IPv6', 'C++', 'UDP'}
+    }
+}
+```
+
 ---
 
 &emsp;&emsp;**维基百科（wikipedia）** 是目前最大的开放式开放领域百科网站之一，包含包括英文、中文等多种语言。现如今在众多人工智能自然语言处理任务中均取自于维基百科，例如斯坦福大学开源的机器阅读理解评测数据集SQuAD1.1和SQuAD2.0的问答语料直接取自于维基百科；FreeBase世界知识库也直接由维基百科构建而成。维基百科之所以能够收到自然语言处理研究者们的关注，主要得益于维基百科的知识的齐全、丰富，且其来自于世界的各个专家、大众一同编辑而成，知识的准确率和细粒度得到一致的认可。
