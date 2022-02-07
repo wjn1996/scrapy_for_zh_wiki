@@ -5,6 +5,8 @@
 
 &emsp;&emsp;运行说明：运行爬虫，可前往counselor目录查看“启动爬虫.md”文件；爬虫后运行预处理，前往data_process目录查看“数据抽取.md”
 
+&emsp;&emsp;请注意，counselor和data_process目录为两个单独的项目，请分别使用Pycharm打开，否则会报module not found等路径相关错误。
+
 &emsp;&emsp;获取的数据格式样例如下所示：
 
 ```
