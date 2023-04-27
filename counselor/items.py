@@ -7,7 +7,7 @@
 
 import scrapy
 
-# 定义实体
+# 定义实体类
 class ContentItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
